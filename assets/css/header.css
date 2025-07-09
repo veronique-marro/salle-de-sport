@@ -1,0 +1,142 @@
+
+main {
+  margin: 0;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #E7C4B0;
+    font-size: 14px;
+}
+
+.header-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 120px;
+    width: 160px;
+    padding-left: 15px;
+}
+
+
+.header-right a {
+
+    font-family: "PlayfairDisplay", sans-serif;
+    color: #3d1a00;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+.header-right a.active {
+  background-color: #3d1a00;
+  border-radius: 30px;
+  color: #E7C4B0;
+  padding: 10px 10px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  header {
+    font-family: "PlayfairDisplay", sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left img {
+    display: flex;
+    justify-content: center;
+    padding-right: 45px;
+    height: 110px;
+    width: auto;
+    margin-bottom: 15px;
+  }
+
+  .header-right {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  .header-right a {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+.header-right a.active {
+  background-color: #3d1a00;
+  border-radius: 30px;
+  color: #E7C4B0;
+  padding: 10px 10px;
+}
+
+}
+
+
+
+@media (max-width: 1024px) {
+
+  header {
+font-family: "PlayfairDisplay", sans-serif;
+  }
+  .header-left img {
+    height: 110px;
+    width: auto;
+  }
+
+  .header-right a {
+    font-size: 18px;
+  }
+
+  .header-right a.active {
+  background-color: #3d1a00;
+  border-radius: 30px;
+  color: #E7C4B0;
+  padding: 10px 10px;
+}
+}
+
+
+@media (max-width: 480px){
+
+  header {
+    font-family: "PlayfairDisplay", sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .header-right a.active {
+  background-color: #3d1a00;
+  border-radius: 30px;
+  color: #E7C4B0;
+  padding: 10px 10px;
+}
+
+
+  .header-right a {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+}
+

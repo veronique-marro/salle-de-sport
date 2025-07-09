@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/inscription.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-left"> 
+    <img src="./assets/img/Glow fit logo.png" alt="">
+    </div>
+
+        <div class="header-right"> 
+        <a href="./Salle_de_sport.html"> Accueil  </a> 
+        <a href="./Planning.html"> Planning </a> 
+        <a href="./inscription.html" class="active">Réserver ma séance </a>
+        <a href="./Galerie.html"> Galerie </a>  </div>
+    </header>
+
+
+<div class="formulaire">
+  <div class="infos-perso">
+    <h2>Informations personnelles</h2>
+    <form>
+      <div class="form-group">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom..." required>
+      </div>
+
+      <div class="form-group">
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom..." required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre adresse mail..." required>
+      </div>
+
+      <div class="form-group">
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Numéro de téléphone..." required>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+<div class="container-formules">
+  <section class="formule classique">
+    <h3>Formule Classique</h3>
+    <div class="offre">
+      <input type="radio" id="classique" name="formule" value="classique">
+      <label for="classique">
+        <strong>29€ / mois</strong><br>
+        Accès illimité 7/7j de 6h à 22h.
+      </label>
+    </div>
+  </section>
+
+  <section class="formule medium">
+    <h3>Formule Medium</h3>
+    <div class="offre"> 
+      <input type="radio" id="medium" name="formule" value="medium">
+      <label for="medium">
+        <strong>39€ / mois</strong><br>
+        Accès illimité 7j/7, 6h-22h + 1 cours collectif / semaine.
+      </label>
+    </div>
+  </section>
+
+  <section class="formule premium">
+    <h3>Formule Premium</h3>
+    <div class="offre">
+      <input type="radio" id="premium" name="formule" value="premium">
+      <label for="premium">
+        <strong>49€ / mois</strong><br>
+        Accès illimités 6h-22h + cours illimités + coaching personnalisé.
+      </label>
+    </div>
+  </section>
+  </div>
+
+<div class="button-ok"> 
+    <button type="button">Envoyer mon formulaire !</button>
+</div>
+
+
+  <footer> 
+  <div class="footer"> 
+    <div class="localisation"> 
+      <p><span>Localisation 📍</span><br> 34 Rue des Étoiles <br> 13007 Marseille</p>
+    </div>
+
+    <div class="contact"> 
+      <p><span>Contact 📩 📞</span><br>
+      Mail : contact@glowfit.com <br>
+      Tel : 04 91 13 13 16</p>
+    </div>
+
+    <div class="horaires">
+      <p><span>Horaires 🕒</span><br>
+        Lundi - Vendredi : 6h - 22h00<br>
+        Samedi : 7h30 - 22h <br>
+        Dimanche : 8h - 18h 
+      </p>
+    </div>
+
+  <div class="social-media"> 
+      <p>Nos réseaux sociaux 📲</p> 
+      <div class="social-icon">
+        <a href="https://www.facebook.com/?locale=fr_FR"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.tiktok.com/fr"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
